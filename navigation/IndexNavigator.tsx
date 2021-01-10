@@ -19,7 +19,7 @@ function IndexNavigator({ colorScheme }: PropsColors) {
     <NavigationContainer
     //   theme={colorScheme === "dark" ? DarkTheme : DefaultTheme}
     >
-      <RootIndexNavigator />
+      <MainNavigator />
     </NavigationContainer>
   );
 }

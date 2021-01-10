@@ -16,3 +16,8 @@ export function NotoMediumText(props: TextProps) {
 export function NotoBoldText(props: TextProps) {
   return <Text {...props} style={[props.style, { fontFamily: "noto-bold" }]} />;
 }
+export function FuturaText(props: TextProps) {
+  return (
+    <Text {...props} style={[props.style, { fontFamily: "futura-bold" }]} />
+  );
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
-import { NotoBoldText, NotoMediumText } from "./StyledText";
+import { NotoBoldText, NotoMediumText, FuturaText } from "./StyledText";
 
 function AppHeader() {
   return (
@@ -20,7 +20,7 @@ function AppHeader() {
 }
 const styles = StyleSheet.create({
   textHeader: {
-    paddingLeft: 10,
+    paddingHorizontal: 10,
     fontSize: 20,
     color: "white",
   },

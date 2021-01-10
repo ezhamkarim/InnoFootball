@@ -10,7 +10,10 @@ const MainStack = createStackNavigator<MainStackParamList>();
 
 function MainNavigator() {
   return (
-    <MainStack.Navigator screenOptions={{ headerShown: false }}>
+    <MainStack.Navigator
+      screenOptions={{ headerShown: false }}
+      initialRouteName="Main"
+    >
       <MainStack.Screen name="Main" component={MainMenuScreen} />
       <MainStack.Screen name="Details" component={MatchDetails} />
       <MainStack.Screen name="Standing" component={StandingsScreen} />
