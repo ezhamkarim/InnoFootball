@@ -18,6 +18,7 @@ export default function useCachedResources() {
           "space-mono": require("../assets/fonts/SpaceMono-Regular.ttf"),
           "noto-medium": require("../assets/fonts/NotoSansTC-Medium.otf"),
           "noto-bold": require("../assets/fonts/NotoSansTC-Bold.otf"),
+          "futura-bold": require("../assets/fonts/Futura Bold font.ttf"),
         });
       } catch (e) {
         // We might want to provide this error information to an error reporting service

@@ -10,6 +10,9 @@ export type MainStackParamList = {
   TopScorer: undefined;
 };
 
+export type SelectLeague = {
+  league: string;
+};
 export type BottomTabParamList = {
   TabOne: undefined;
   TabTwo: undefined;
